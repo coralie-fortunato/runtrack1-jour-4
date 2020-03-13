@@ -1,0 +1,204 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* global */
+header{
+    display:flex;
+    flex-direction: row;
+    font-family:'Oswald', sans-serif;
+    background-color:white ;
+    width: 100%;
+    align-items:center;
+    font-size: 30px;
+    border-radius: 10px;
+              
+}
+#logonavbar{
+    height: 100px;
+    width: 120px;
+}
+
+nav ul{
+    list-style-type: none;  
+              
+}
+nav li{
+    display: inline-block;
+    padding-left: 20px;
+   
+}
+
+nav li a{
+    text-decoration: none;
+    color:#275fa0;
+    }
+
+body{
+    background-color: #88C1d0;
+    margin: 0px;
+    padding:0px;
+}
+main{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    color:#275fa0 ;
+    text-align: center;
+}
+ 
+
+.contenu{
+    display: flex;
+    align-content: space-around;
+}
+.contenu p{
+    flex-direction:row;
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffca4b;
+    margin-bottom: 30px;
+}
+.video{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+    
+}
+
+iframe{
+    margin-bottom: 10px;
+}
+
+#logocenter{
+    display: flex;
+    justify-content:center;
+}
+
+#logobottom{
+   
+    height: 200px;
+    width: 220px;
+}
+footer{
+    background-color:#ffca4b;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+footer a{
+    text-decoration: none;
+    padding-left: 30px;
+    
+}
+
+.socialmedia{
+    padding-top: 10px;
+
+}
+/* PAGE2 */
+.contenu2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+
+.école{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.images{
+    width: 460px;
+    height:315px;
+    margin-bottom: 30px;
+
+}
+/* PAGE3 */
+#contenu3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.content3{
+    width:500px
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;      
+}
+.job h1{
+    border: solid rgb(88, 83, 83);
+    padding: 30px;
+    margin: 0px;
+    box-shadow:10px 5px 5px ;
+    border-width: thin;
+    background-color:white;
+    justify-content: flex-end;
+    
+
+}
+.jobtext{
+    display: flex;
+    flex-direction: column;
+    border:1px transparent;
+    padding: 30px;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 30px;
+    
+
+}
+.totaljob{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+/* PAGE4 */
+.contenu4{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+/* PAGE5 */
+.contenu5{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+/* PAGE6 */
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.window{
+    width: 400px;
+    height: 30px;
+    
+}
+
+.maps{
+    padding: 50px;
+}
+    
+    
+    
+
+
+
